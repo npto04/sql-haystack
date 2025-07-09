@@ -11,3 +11,12 @@ wheels/
 
 # Environment variables
 .env
+
+# VSCode
+.vscode/
+
+# Project files
+toolbox.exe
+tools.yaml
+check_data.ipynb
+tools/toolbox
