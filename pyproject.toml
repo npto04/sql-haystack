@@ -7,5 +7,12 @@ requires-python = ">=3.12"
 dependencies = [
     "pandas>=2.3.1",
     "psycopg>=3.2.9",
+    "pydantic>=2.11.7",
     "python-dotenv>=1.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "uv>=0.7.19",
 ]

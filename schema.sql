@@ -29,11 +29,11 @@ CREATE TABLE amazon_products (
 -- Create the product_reviews table
 CREATE TABLE product_reviews (
     -- Primary key and foreign key
-    review_id VARCHAR(20) PRIMARY KEY,
+    review_id VARCHAR(120) PRIMARY KEY,
     product_id VARCHAR(20) REFERENCES amazon_products(product_id),
     
     -- User information
-    user_id VARCHAR(50),
+    user_id VARCHAR(255),
     user_name TEXT,
     
     -- Review content
